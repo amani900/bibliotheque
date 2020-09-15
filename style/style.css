@@ -1,0 +1,217 @@
+*{
+margin:0px;
+padding:0px;
+}
+body{   
+	background:url('../images/images5.jpg');
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size:75% 100%;
+   background-position: right;
+   /*background-size: cover;*/
+}
+.cote{
+	position:fixed;
+	left:0%;
+	height:100%;
+	width:25%;
+	background-color:rgba(255,255,255,0.7);
+	box-shadow: 0px 0px 50px 40px rgb(255,255,255);
+}
+#logo{ position: relative; 
+	height: 100px;
+	   width: 100px;
+	    left: 50px; 
+	     border-radius: 50%; 
+	     background-image: url(../images/images.jpg);
+	     background-size: 100px 100px;
+}
+
+#horloge1 {width :260px ;
+ height : 50px ; 
+         text-align : center;
+         line-height :50px; }
+
+         /*------------------------------------*/
+         .sous_liste{
+	z-index:2;
+	left:4%;
+	position: fixed;
+	width:100%;
+	height:8%;
+}
+.sous_liste ul {position: relative;
+ padding:0;
+ margin-top:10px;
+ list-style-type:none;
+ left: 25%;
+ }
+.sous_liste li {
+ margin-left:20px;
+ float:left;/*pour IE*/
+
+ }
+.sous_liste ul li a {
+ display:block;
+ float:left;   
+ width:105%;
+ height:25px;
+ color:white;
+ background-image: linear-gradient(to bottom right, blue, white);
+ text-decoration:none;
+ text-align:center;
+ padding:5px;
+font-size: 14pt;
+font-family: times new roman;
+ border-radius: 50px;
+ /*pour avoir un effet "outset" avec IE :*/
+ border-color:#f0f0f0 #c0c0c0 #c0c0c0 #f0f0f0;
+box-shadow: 2px 2px 1px 1px blue;
+ }
+.sous_liste ul li a:hover {
+	background-image: linear-gradient(to bottom right, white, gray);
+ background-color:#D3D3D3;
+ box-shadow:2px 2px 2px 2px white;
+ color: black;
+ }
+
+ /*-----------------------------*/
+ .forms input[type="text"]{
+	margin:10px;
+	left:2px;
+	height:30px;
+	width:170%;
+	margin-top:3px;
+	margin-right:2px;
+	background-image: linear-gradient(to bottom right, #c0c0c0, white);
+	border-radius:25%;
+	border-style: outset;
+	text-align: center;
+	font-family: times new roman;
+	font-size:16pt; 
+}
+.comment{
+	position: relative;
+	top:5%;
+	left:5%;
+z-index:2;
+	font-family: monotype corsiva;
+	font-size:20pt;
+	color: red;	
+}
+.forms form select{
+	margin:10px;
+	left:10px;
+	height:30px;
+	width:170px;
+	margin-top:3px;
+	margin-right:10px;
+	background-image: linear-gradient(to bottom right, #c0c0c0, white);
+	border-radius:25%;
+	border-style: outset;
+	text-align: center;
+	font-family: times new roman;
+	font-size:16pt; 	
+}
+.forms input[type="password"]{
+	margin:10px;
+	left:10px;
+	height:30px;
+	width:170%;
+	margin-top:3px;
+	margin-right:10px;
+	background-image: linear-gradient(to bottom right, #c0c0c0, white);
+	border-radius:25%;
+	border-style: outset;
+	text-align: center;
+	font-family: times new roman;
+	font-size:16pt; 
+}
+.forms h2{
+	text-align: center;
+	 font-variant: small-caps;
+	 font-family:andalus;
+	 color: white;
+	 font-size: 28pt;
+	 text-shadow:  0 0 4px blue, 0 0 7px #0000FF ;
+
+}
+.forms h3{
+	text-align: center;
+	margin-bottom:30px;
+	 font-variant: small-caps;
+	 font-family:andalus;
+	 font-weight: bold;
+	 font-size: 18pt;
+	 color: black;
+	 text-shadow:  0 0px 4px white, 0 0px 8px white ;
+
+}
+.change{
+	position: relative;
+	text-align: center;
+	height:35px;
+	width:100px;
+	font-family: monotype corsiva;
+	font-size: 18pt;
+	background-image: linear-gradient(to bottom right, gray, white);
+	border-radius: 20px;
+	box-shadow: 1px 1px 2px 2px gray;
+	text-decoration: none;
+	 color: black;
+}
+
+.change:hover{
+	background-image: linear-gradient(to bottom right, white, blue);
+	box-shadow: none;
+	cursor: pointer;
+}
+
+#f1{
+height: 40%;
+width: 60%;
+}
+.forms form{
+	position:absolute;
+	top:10%;
+	left:5%;
+	height:90%;
+}
+.forms{
+	z-index: 1;
+	position: relative;
+	top:150px;
+	left:35%;
+	background-color: rgba(255,255,255,0.8);
+	border-radius:5%;
+	background-repeat: no-repeat;	
+	border:outset white 3px;
+	height:900px;
+	width: 65%;
+
+}
+.eye{
+	position: relative;
+height:40px;
+width:50px;
+	background-image: linear-gradient(to bottom right, #c0c0c0, white);
+	border-radius:25%;
+	border-style: outset;
+}
+
+.imgatt{	
+	position: relative;
+	top:15%;
+	height:30%;
+	width:35%;
+	border-radius:10%;
+	border: outset white 2px;
+}
+.att{
+	position: relative;
+	top:10%;
+	left:15%;
+	font-family: monotype corsiva;
+	font-size:20pt;
+	color: red;
+}
